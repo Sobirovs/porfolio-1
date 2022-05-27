@@ -1,0 +1,45 @@
+@media(max-width:1399px){
+    nav-link-custom {
+        font-size: 15px;
+    }
+    .nav-item:not(:first-child) {
+        margin-left: 16px;
+    }
+    .brand-self {
+        margin-left:56px;
+        margin-right:56px;
+    }
+    .mobile-none {
+        display: none !important;
+    }
+    .sub-col img{
+        width: 100%;
+    }
+}
+
+@media(max-width:1199px) {
+    .nav-link-custom{
+    font-size: 14px;
+}
+    .nav-item:not(:first-child) {
+        margin-left: 12px;
+    }
+    .brand-self {
+        margin-left: 18px;
+        margin-right: 18px;
+        
+    }
+    .row-sub{
+        width: 100%;
+    }
+    .sub-col img{
+        width: 100%;
+    }
+    .gallery-one-nameT {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        padding: 12px 38px;
+    }
+}
